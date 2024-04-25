@@ -1,0 +1,139 @@
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles de la navigation */
+nav {
+    background-color: #444; 
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f2f2f2; 
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd; 
+}
+
+a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.empty-message {
+    color: #d9534f; 
+    font-weight: bold;
+}
+
+section {
+	padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="submit"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.errorText {
+    color: #FF0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour les messages d'alerte */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: #155724; 
+    background-color: #d4edda; 
+    border-color: #c3e6cb;
+}
+
+/* Styles pour les messages d'alerte d'échec */
+.alert-danger {
+    color: #721c24; 
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
